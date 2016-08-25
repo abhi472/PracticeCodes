@@ -15,7 +15,8 @@ public class Utopian {
          for(int i = 0; i < t; i++){
            System.out.println( countfunc(b[i])+"");
             
-         }        
+         }   
+         in.close();
     }
      public static int countfunc(int a)
              {

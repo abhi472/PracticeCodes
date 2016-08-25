@@ -1,9 +1,5 @@
 package hackerank;
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class Digit {
  static int d=0;
@@ -12,6 +8,8 @@ public class Digit {
        String string = s.nextLine();
       int k= pangram(string);
       System.out.println(k);
+      
+      s.close();
        
     }
     

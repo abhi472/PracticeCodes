@@ -53,7 +53,7 @@ public class Sherlock {
 		System.out.println();
 	}
 	
-
+      s.close();
 }
 	static int func(int a)
 	{
